@@ -1,0 +1,123 @@
+.motivation{
+    background-color: rgb(253, 253, 253);
+    height: 100vh;
+    background-image: url('../../public/images.png');
+}
+.motivation-navbar{
+    display: flex;
+    height: 12vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #ffffff;
+}
+.motivation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 254, 254)
+}
+.motivation-title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 2rem;
+    right: 0%;
+}
+.motivation-title{
+    font-size: 4rem;
+    font-weight: 600;
+    border-bottom: 2px solid rgb(251, 251, 251);
+        font-family: '__Inter_aaf875', '__Inter_Fallback_aaf875';
+    font-style: normal;
+}
+.motivation-subtitle{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.motivation-choice-container{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    position: relative;
+    top: 10rem;
+
+}
+.motivation-choice-title{
+    font-size: 2rem;
+    font-weight: 600;
+    border-bottom: 2px solid rgb(243, 243, 243);
+}
+/* .motivation-content-container{
+    border: 2px solid black;
+    position: relative;
+    top: 30rem;
+} */
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 22rem;
+}
+.quote{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    width: 75%;
+    text-align: center;
+}
+.motivation-content-container-youtube-shorts{
+    position: relative;
+    top: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.youtube-shorts-container{
+    display: flex;
+    gap: 5rem;
+}
+.youtubeShort{
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.motivation-navbar-buttons-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 2rem 2rem;
+}
+.motivation-navbar-button{
+    color: rgb(249, 249, 249);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.youtubeShort-videos{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+.youtube-next-button{
+    margin-left: 3rem;
+    font-size: 2.5rem;
+}
+.youtube-prev-button{
+    margin-right: 3rem;
+    font-size: 2.5rem;
+}
+.next-quote{
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 170, 0);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    font-size: small;
+}
